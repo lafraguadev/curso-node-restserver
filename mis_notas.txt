@@ -1,0 +1,25 @@
+inicializamos el proyecto
+   npm init -y
+
+Instalamos los packages 
+   npm i express dotenv
+
+trabajamos Express basado en clases
+   ver models/server.js  y app.js
+
+codigos de error API , referencia en http-response-codes.pdf
+
+- CORS - middleware   https://www.npmjs.com/package/cors
+   proteje que solo ciertas paginas accesen nuestra api o  todas las paginas.
+
+
+Separar las rutas en un archivo aparte
+routes/nombre de la tabla, routes/users.js
+
+todas las funciones qhe ejecutan las rutas se pasan a controller/usuarios.js y en la rutas
+referenciamos la funcion sin () para que no se ejecute. si ponemos () se ejecuta.
+
+
+
+RESPALDO del cascaron para crear futuras RESTAPI
+
