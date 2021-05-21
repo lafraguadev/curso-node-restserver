@@ -48,5 +48,23 @@ RESPALDO en repositorio del cascaron para crear futuras RESTAPI
          git commit -m "README added"
          git push
 
+   Creamos una version (release tag) en git para nuestro proyecto, como quien dice un corte 
+   de como esta el proyecto en este momento (son como versiones)
+      git tag -a v1.0.0 -m "Fin Sección 8 del curso"
+      git push --tags
+      luego en la pagina click en tag para finalizarlo.
+      Y ya aca se puede descargar el codigo.
+
+ DESPLIEGUE del API en heroku
+   - poner en el package.jon "start" : "node app.js"
+   - login en heroku y crear nueva app,  (solo permite 5 gratuitas)
+   - heroku login 
+   - git init
+   - heroku git:remote -a restserver-node-lf
+   - git add .
+   - git commit -am "make it better"
+   - git branch   (* main o master)
+   - git push heroku main
+   
    
 
