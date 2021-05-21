@@ -10,7 +10,7 @@ const usuariosGet = (req = request, res = response) => {
    // const query = req.query;
    const { q, nombre='sin nombre',apikey } = req.query;  // destruc. de los parametros para validar solo los que me convengan
                      //nombre='sin nombre' es valor si no viene en parametros el nombre
-   console.log(query);
+   // console.log(query);
 
    res.json({
       msg: 'ruta /api/usuarios. get- controlador',
