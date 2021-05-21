@@ -21,5 +21,32 @@ referenciamos la funcion sin () para que no se ejecute. si ponemos () se ejecuta
 
 
 
-RESPALDO del cascaron para crear futuras RESTAPI
+RESPALDO en repositorio del cascaron para crear futuras RESTAPI
+
+   -git init
+   -git add .
+   -git commit -m "Primer commit, backend basico listo"
+   -------------------------
+   si borro algo accidentalmente, lo puedo recuperar con : git checkout -- .  
+   -------------------------
+
+   para subirlo a github, nos loggeamos en github.com
+   - creamos un nuevo repositorios (nombrexxxxx), descripion, publico o privado
+
+   copiamos las lineas de donde dice: (y se pegan en la terminal del proyeto)
+   …or push an existing repository from the command line
+      git remote add origin https://github.com/lafraguadev/curso-node-restserver.git
+      git branch -M main
+      git push -u origin main
+      
+      NOTA: si hay problemas de autenticacion en visual code preferences desmarcar Git: Terminal Authentication
+
+   crear un el archivo README.md con indicaciones o comentarios de como usar el proyecto
+
+      - para subir el cambio en el archivo 
+         git add .
+         git commit -m "README added"
+         git push
+
+   
 
