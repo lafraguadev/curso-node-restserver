@@ -66,5 +66,8 @@ RESPALDO en repositorio del cascaron para crear futuras RESTAPI
    - git branch   (* main o master)
    - git push heroku main
    
-   
-
+ SI HAY CAMBIOS POSTERIORES AL DESPLIEGUE HACER
+   - git add .   
+   - git commit -m "nmp start en package added"
+   - git push   (sube los cambios github)
+   - git push heroku main (sube los cambios a heroku)

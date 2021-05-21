@@ -6,7 +6,7 @@ class Server {
    constructor() {
 
       this.app    = express();
-      this.port   = process.env.PORT;
+      this.port   = process.env.PORT || 5000;
       // para saber que rutas dispone la aplicacion
       this.usuariosPath = '/api/usuarios';  // asi tambien se cambiar todas las rutas con solo cambiar aca
 
